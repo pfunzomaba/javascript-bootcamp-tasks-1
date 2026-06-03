@@ -1,5 +1,4 @@
 // Exercise 1: Temperature Check
-// Store the temperature value
 let temperature = 18;
 
 // Check if temperature is below 0
@@ -14,7 +13,6 @@ if (temperature < 0) {
 } else if (temperature >= 16 && temperature <= 25) {
     console.log("It's mild.");
 
-// If none of the above conditions are true
 } else {
     console.log("It's warm.");
 }
@@ -46,8 +44,6 @@ switch (true) {
 
 // Exercise 2: Divisibility Check
 // 1. Using if...els
-
-// Store the number
 let number = 12;
 
 // Check if number is divisible by both 2 and 3
@@ -68,8 +64,6 @@ if (number % 2 === 0 && number % 3 === 0) {
 }
 
 // 2. Using switch
-
-// Use switch(true) for condition checking
 switch (true) {
 
     // Divisible by both 2 and 3
@@ -106,7 +100,6 @@ for (let i = 1; i <= 20; i++) {
 }
 
 //3. Calculate the sum from 1 to 100
-// Variable to store the sum
 let sum = 0;
 
 // Loop from 1 to 100
@@ -121,7 +114,6 @@ console.log(sum);
 
 
 // 4. Print each array element
-// Array of numbers
 const numbers = [1, 2, 3, 4, 5];
 
 // Loop through the array
@@ -132,7 +124,6 @@ for (let i = 0; i < numbers.length; i++) {
 }
 
 // 5. Find the largest number
-// Array of numbers
 const arrayNumbers = [3, 7, 2, 5, 10, 6];
 
 // Assume first number is the largest
@@ -152,7 +143,6 @@ console.log("Largest number is:", largest);
 
 //Exercise 4: While Loops
 //1. Print numbers from 1 to 10
-// Start counting from 1
 let i = 1;
 
 // Continue while i is less than or equal to 10
@@ -164,7 +154,6 @@ while (i <= 10) {
 }
 
 // 2. Print even numbers between 1 and 20
-// Start counting from 1
 i = 1;
 
 // Loop until 20
@@ -180,7 +169,6 @@ while (i <= 20) {
 }
 
 // 3. Calculate the sum from 1 to 100
-// Starting number
 i = 1;
 
 // Variable to store sum
@@ -200,7 +188,6 @@ while (i <= 100) {
 console.log(sum);
 
 // 4. Print multiples of 5 less than 50
-// Start counting from 1
 i = 1;
 
 // Loop while number is less than 50
@@ -217,7 +204,6 @@ while (i < 50) {
 
 //Exercise 5: Do While Loops
 // 1. Print numbers from 1 to 10
-// Start counting from 1
 i = 1;
 
 do {
@@ -230,7 +216,6 @@ do {
 
 
 //2. Calculate the sum from 1 to 100
-// Starting number
 i = 1;
 
 // Variable to store total sum
@@ -251,7 +236,6 @@ do {
 console.log(sum);
 
 //3. Ask user for a number greater than 10
-// Variable to store user input
  number=0;
 
 // Keep asking until number is greater than 10
@@ -265,7 +249,6 @@ console.log("Valid number entered:", number);
 
 
 // 4. Guessing game
-// Secret number
 let secretNumber = 7;
 
 // Variable for user's guess
